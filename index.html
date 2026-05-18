@@ -68,7 +68,7 @@
                 required
                 minlength="2"
                 maxlength="40"
-                pattern="^[A-Za-zА-Яа-яЁё -]+$"
+                pattern="^[A-Za-zА-Яа-яЁё \x2d]+$"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
               <span class="popup__error" id="user-name-error"></span>
@@ -115,7 +115,7 @@
                 required
                 minlength="2"
                 maxlength="30"
-                pattern="^[A-Za-zА-Яа-яЁё -]+$"
+                pattern="^[A-Za-zА-Яа-яЁё \x2d]+$"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
               <span class="popup__error" id="place-name-error"></span>
